@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 228,
+    "build": 230,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -14,12 +14,12 @@
     "orientation": "landscape",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
-    "projectUuid": "3314ac15-30ba-4ac2-8eba-8b1d3efbbde2",
+    "projectUuid": "f980e2c4-f757-4dff-a975-0782d18e3c52",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
-    "name": "Amiable Arch",
+    "name": "GDevelop Game",
     "description": "",
     "author": "",
     "windowWidth": 1280,
