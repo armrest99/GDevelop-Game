@@ -469,6 +469,30 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Wall Corner Top Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wall Corner Top Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/1bff05c6af7fb4bd9f76fdeefee72a0a44111ed3d142fdc694d8bb9b971c0bf5_Wall Corner Top Left.png",
+          "name": "Wall Corner Top Left.png"
+        }
+      },
+      {
+        "file": "assets/water waterfall bright desat surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water waterfall bright desat surface.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/3ce4804045bbc71b0dcd1300ae215472245088a50ba5b76a17fc33c989df8edb_water waterfall bright desat surface.png",
+          "name": "water waterfall bright desat surface.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -492,15 +516,15 @@
   ],
   "layouts": [
     {
-      "b": 209,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "Untitled_32scene",
       "name": "Untitled scene",
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -511,7 +535,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690412,
+        "zoomFactor": 0.19561100536769352,
         "windowMask": false
       },
       "objectsGroups": [
@@ -530,14 +554,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 607,
+          "height": 722,
           "keepRatio": true,
           "layer": "",
           "name": "Grass3",
           "persistentUuid": "61f3e8bd-14cc-4a9e-9283-6273cba7f76f",
-          "width": 1147,
-          "x": 56,
-          "y": 74,
+          "width": 1286,
+          "x": 0,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -552,7 +576,7 @@
           "layer": "",
           "name": "Ground2",
           "persistentUuid": "56205962-4633-4fa0-afd3-cd2b2b6bba77",
-          "width": 562,
+          "width": 1276,
           "x": 0,
           "y": 224,
           "zOrder": 1,
@@ -585,8 +609,8 @@
           "name": "MaleCharacter5",
           "persistentUuid": "191da77a-e1b6-4b2a-8db3-4d1f2b41ffd2",
           "width": 121,
-          "x": 1417,
-          "y": 90,
+          "x": 66,
+          "y": 100,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -604,23 +628,6 @@
           "x": 372,
           "y": 412,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 58,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GoldNecklace",
-          "persistentUuid": "1af7c357-e64d-4185-b751-11bfccb8c7e2",
-          "width": 64,
-          "x": 1496,
-          "y": 167,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -690,6 +697,23 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2736,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WaterWaterfallBrightDesatSurface",
+          "persistentUuid": "9f0a8e73-2842-49aa-bf92-e15b7938f9f1",
+          "width": 3615,
+          "x": -1222,
+          "y": -932,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1741,7 +1765,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "content": {},
+          "content": {
+            "TextMessage": "...take this gold necklace",
+            "LabelButtonID1": "No"
+          },
           "childrenContent": {
             "Dialogue": {
               "content": {
@@ -2103,6 +2130,126 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "5ddeb56f0c0734fff760cb88952a91cf31ed6e7f0f3508fff6b5001f413d95ee",
+          "name": "WallCornerTopLeft",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Wall Corner Top Left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12
+                          },
+                          {
+                            "x": 16,
+                            "y": 12
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "5cd8187491242fd627807e05e68fa26e8ab0b2569d836b79cd56cedf47b6d8ef",
+          "name": "WaterWaterfallBrightDesatSurface",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "water waterfall bright desat surface.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 288,
+                            "y": 0
+                          },
+                          {
+                            "x": 288,
+                            "y": 288
+                          },
+                          {
+                            "x": 0,
+                            "y": 288
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2110,6 +2257,9 @@
         "children": [
           {
             "objectName": "MaleCharacter1"
+          },
+          {
+            "objectName": "WallCornerTopLeft"
           },
           {
             "objectName": "Grass3"
@@ -2131,6 +2281,9 @@
           },
           {
             "objectName": "InventoryIcon"
+          },
+          {
+            "objectName": "WaterWaterfallBrightDesatSurface"
           }
         ]
       },
@@ -2149,6 +2302,32 @@
                 "",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "=",
+                "clamp(MaleCharacter1.X(), 0, Grass3.Width() - MaleCharacter1.Width() )"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "=",
+                "clamp(MaleCharacter1.Y(), 0, Grass3.Height() - MaleCharacter1.Height() )"
               ]
             }
           ]
@@ -2328,15 +2507,6 @@
           "actions": [
             {
               "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "GoldNecklace",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -2407,13 +2577,10 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
               },
               "parameters": [
-                "MaleCharacter1",
-                "Items",
-                "",
-                "",
+                "TwoChoicesDialogBox",
                 ""
               ]
             }
@@ -2467,6 +2634,39 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
