@@ -493,6 +493,38 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/3ce4804045bbc71b0dcd1300ae215472245088a50ba5b76a17fc33c989df8edb_water waterfall bright desat surface.png",
           "name": "water waterfall bright desat surface.png"
         }
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RedItem.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/RedItem.png\"}",
+        "name": "RedItem",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RedItem2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RedItem2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -510,6 +542,11 @@
     },
     {
       "name": "NeedInventoryUpdate",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "quest1done",
       "type": "boolean",
       "value": false
     }
@@ -535,7 +572,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19561100536769352,
+        "zoomFactor": 0.6040838749988899,
         "windowMask": false
       },
       "objectsGroups": [
@@ -544,6 +581,9 @@
           "objects": [
             {
               "name": "GoldNecklace"
+            },
+            {
+              "name": "RedItem"
             }
           ]
         }
@@ -554,12 +594,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 722,
+          "height": 1333,
           "keepRatio": true,
           "layer": "",
           "name": "Grass3",
           "persistentUuid": "61f3e8bd-14cc-4a9e-9283-6273cba7f76f",
-          "width": 1286,
+          "width": 2275,
           "x": 0,
           "y": 0,
           "zOrder": 0,
@@ -576,7 +616,7 @@
           "layer": "",
           "name": "Ground2",
           "persistentUuid": "56205962-4633-4fa0-afd3-cd2b2b6bba77",
-          "width": 1276,
+          "width": 2044,
           "x": 0,
           "y": 224,
           "zOrder": 1,
@@ -714,6 +754,56 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RedItem",
+          "persistentUuid": "d7dd48f7-4ec7-4176-94eb-9011ddad4a7f",
+          "width": 0,
+          "x": 2002,
+          "y": -427,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GoldNecklace",
+          "persistentUuid": "7c89d3a4-b689-4cc2-8477-abb79aa54cb8",
+          "width": 73,
+          "x": 2083,
+          "y": 1196,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1067,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ground2",
+          "persistentUuid": "8230230a-2898-439a-9a9d-e93e95218956",
+          "width": 171,
+          "x": 2037,
+          "y": 216,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -745,6 +835,7 @@
               "OffsetY": 0
             },
             {
+              "maxSpeed": 500,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 1000,
@@ -754,7 +845,6 @@
               "angularMaxSpeed": 180,
               "customIsometryAngle": 30,
               "ignoreDefaultControls": false,
-              "maxSpeed": 200,
               "movementAngleOffset": 0,
               "rotateObject": false,
               "viewpoint": "TopDown"
@@ -1911,7 +2001,7 @@
                   "italic": false,
                   "smoothed": true,
                   "underlined": false,
-                  "string": "Yes",
+                  "string": "Next",
                   "font": "",
                   "textAlignment": "center",
                   "characterSize": 26,
@@ -1934,7 +2024,7 @@
                     "shadowOpacity": 127,
                     "smoothed": true,
                     "underlined": false,
-                    "text": "Yes",
+                    "text": "Next",
                     "font": "",
                     "textAlignment": "center",
                     "verticalTextAlignment": "top",
@@ -2250,6 +2340,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "RedItem",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "RedItem",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2275,6 +2426,9 @@
           },
           {
             "objectName": "GoldNecklace"
+          },
+          {
+            "objectName": "RedItem"
           },
           {
             "objectName": "InventorySlot"
@@ -2479,14 +2633,108 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "TwoChoicesDialogBox",
-                ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "InventorySlot",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Inventory[InventorySlot.SlotNumber].Name",
+                    "=",
+                    "\"GoldNecklace\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "quest1done",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quest1done",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TwoChoicesDialogBox",
+                    "Text",
+                    "=",
+                    "\"I've lost my necklace, could you find it for me?\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TwoChoicesDialogBox",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quest1done",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TwoChoicesDialogBox",
+                    "Text",
+                    "=",
+                    "\"Thank you!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TwoChoicesDialogBox",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -2513,28 +2761,62 @@
                 "TwoChoicesDialogBox"
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsNoClicked"
-              },
-              "parameters": [
-                "TwoChoicesDialogBox",
-                ""
-              ]
-            }
           ],
-          "actions": [
+          "events": [
             {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "TwoChoicesDialogBox"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "quest1done",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "InventorySlot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "Inventory[InventorySlot.SlotNumber].Name",
+                        "=",
+                        "\"GoldNecklace\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Inventory[InventorySlot.SlotNumber].Name",
+                        "=",
+                        "\"Empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "NeedInventoryUpdate",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -2577,10 +2859,13 @@
           "conditions": [
             {
               "type": {
-                "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "TwoChoicesDialogBox",
+                "MaleCharacter1",
+                "Items",
+                "",
+                "",
                 ""
               ]
             }
@@ -3094,6 +3379,55 @@
                         {
                           "hasCustomCollisionMask": true,
                           "image": "Gold Necklace_No Shadow.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 4,
+                                "y": 3
+                              },
+                              {
+                                "x": 28,
+                                "y": 3
+                              },
+                              {
+                                "x": 28,
+                                "y": 29
+                              },
+                              {
+                                "x": 4,
+                                "y": 29
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "RedItem",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "RedItem2",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
@@ -10746,7 +11080,7 @@
                   "italic": false,
                   "smoothed": true,
                   "underlined": false,
-                  "string": "Yes",
+                  "string": "Next",
                   "font": "",
                   "textAlignment": "center",
                   "characterSize": 26,
@@ -10769,7 +11103,7 @@
                     "shadowOpacity": 127,
                     "smoothed": true,
                     "underlined": false,
-                    "text": "Yes",
+                    "text": "Next",
                     "font": "",
                     "textAlignment": "center",
                     "verticalTextAlignment": "top",
@@ -10950,35 +11284,12 @@
               "name": "YesButton",
               "persistentUuid": "a0ca78d3-0a23-4bbe-89de-fb2d0a53996c",
               "width": 105,
-              "x": 350,
-              "y": 160,
+              "x": 480,
+              "y": 161,
               "zOrder": 510,
               "numberProperties": [],
               "stringProperties": [],
               "initialVariables": []
-            },
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 32,
-              "height": 36,
-              "layer": "",
-              "name": "NoButton",
-              "persistentUuid": "6781aafa-3ae9-4820-bb97-682a524a0cf6",
-              "width": 103,
-              "x": 471,
-              "y": 160,
-              "zOrder": 510,
-              "numberProperties": [],
-              "stringProperties": [],
-              "initialVariables": [
-                {
-                  "name": "ID",
-                  "persistentUuid": "bb563dbe-93eb-4412-b843-f60016b9a893",
-                  "type": "number",
-                  "value": 1
-                }
-              ]
             }
           ],
           "eventsFunctions": [
