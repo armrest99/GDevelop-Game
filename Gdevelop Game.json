@@ -553,6 +553,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Fantasy/3b0c82932f445823562bb4b3da8eae1aadf8d0fea64bb3066f6b7f5d51dc17eb_Nomadic Sunset MMXIX.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Walk_07.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cc3dbc9b93661275858f312f2c811186a6cc636e7ea28e55bd3a7be675b9d718_Walk_06.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Mud/Walk/cc3dbc9b93661275858f312f2c811186a6cc636e7ea28e55bd3a7be675b9d718_Walk_06.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Fanfare X.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Epic Dramatic/ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -863,10 +891,10 @@
               "OffsetY": 0
             },
             {
+              "acceleration": 1000,
+              "maxSpeed": 200,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "maxSpeed": 500,
-              "acceleration": 1000,
               "deceleration": 9999999,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -2488,14 +2516,80 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "3b0c82932f445823562bb4b3da8eae1aadf8d0fea64bb3066f6b7f5d51dc17eb_Nomadic Sunset MMXIX.aac",
+                "2",
                 "yes",
-                "100",
+                "5",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "cc3dbc9b93661275858f312f2c811186a6cc636e7ea28e55bd3a7be675b9d718_Walk_06.wav",
+                "1",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -2817,7 +2911,20 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "",
+                    "100",
+                    "10"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
