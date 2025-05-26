@@ -525,6 +525,34 @@
         "name": "RedItem2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Walk_06.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "508f226348f7531bedc7e87f5f4f8564043af9d89dc21cdb6b7aa1d3b7fadbbe_Walk_06.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Leaves/Walk/508f226348f7531bedc7e87f5f4f8564043af9d89dc21cdb6b7aa1d3b7fadbbe_Walk_06.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Nomadic Sunset MMXIX.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3b0c82932f445823562bb4b3da8eae1aadf8d0fea64bb3066f6b7f5d51dc17eb_Nomadic Sunset MMXIX.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Fantasy/3b0c82932f445823562bb4b3da8eae1aadf8d0fea64bb3066f6b7f5d51dc17eb_Nomadic Sunset MMXIX.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -572,7 +600,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988899,
+        "zoomFactor": 0.3111974942445221,
         "windowMask": false
       },
       "objectsGroups": [
@@ -742,14 +770,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 2736,
+          "height": 4251,
           "keepRatio": true,
           "layer": "",
           "name": "WaterWaterfallBrightDesatSurface",
           "persistentUuid": "9f0a8e73-2842-49aa-bf92-e15b7938f9f1",
-          "width": 3615,
-          "x": -1222,
-          "y": -932,
+          "width": 6605,
+          "x": -2075,
+          "y": -1534,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -835,9 +863,9 @@
               "OffsetY": 0
             },
             {
-              "maxSpeed": 500,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 500,
               "acceleration": 1000,
               "deceleration": 9999999,
               "allowDiagonals": true,
@@ -2455,6 +2483,18 @@
                 "MaleCharacter1",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "3b0c82932f445823562bb4b3da8eae1aadf8d0fea64bb3066f6b7f5d51dc17eb_Nomadic Sunset MMXIX.aac",
+                "yes",
+                "100",
                 ""
               ]
             }
