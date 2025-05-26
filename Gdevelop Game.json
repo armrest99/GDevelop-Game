@@ -891,10 +891,10 @@
               "OffsetY": 0
             },
             {
-              "acceleration": 1000,
-              "maxSpeed": 200,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 1000,
+              "maxSpeed": 200,
               "deceleration": 9999999,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -2561,7 +2561,7 @@
                 "",
                 "cc3dbc9b93661275858f312f2c811186a6cc636e7ea28e55bd3a7be675b9d718_Walk_06.wav",
                 "1",
-                "no",
+                "yes",
                 "100",
                 "1"
               ]
