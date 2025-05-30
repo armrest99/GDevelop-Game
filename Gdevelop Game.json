@@ -581,6 +581,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Epic Dramatic/ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Item 2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Item 2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Item3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Item3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Item2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Item2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -628,7 +652,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445221,
+        "zoomFactor": 0.16572117247526938,
         "windowMask": false
       },
       "objectsGroups": [
@@ -640,6 +664,9 @@
             },
             {
               "name": "RedItem"
+            },
+            {
+              "name": "Item2"
             }
           ]
         }
@@ -650,14 +677,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1333,
+          "height": 3765,
           "keepRatio": true,
           "layer": "",
           "name": "Grass3",
           "persistentUuid": "61f3e8bd-14cc-4a9e-9283-6273cba7f76f",
-          "width": 2275,
-          "x": 0,
-          "y": 0,
+          "width": 6240,
+          "x": -1925,
+          "y": -1279,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -672,8 +699,8 @@
           "layer": "",
           "name": "Ground2",
           "persistentUuid": "56205962-4633-4fa0-afd3-cd2b2b6bba77",
-          "width": 2044,
-          "x": 0,
+          "width": 3957,
+          "x": -1913,
           "y": 224,
           "zOrder": 1,
           "numberProperties": [],
@@ -848,7 +875,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1067,
+          "height": 2262,
           "keepRatio": true,
           "layer": "",
           "name": "Ground2",
@@ -857,6 +884,22 @@
           "x": 2037,
           "y": 216,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item2",
+          "persistentUuid": "3d97413f-ee9b-4931-ba36-d48b65cb5948",
+          "width": 0,
+          "x": 1864,
+          "y": -408,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2457,6 +2500,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Item2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Item2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Item 2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2494,6 +2598,9 @@
           },
           {
             "objectName": "WaterWaterfallBrightDesatSurface"
+          },
+          {
+            "objectName": "Item2"
           }
         ]
       },
@@ -3575,6 +3682,55 @@
                         {
                           "hasCustomCollisionMask": true,
                           "image": "RedItem2",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 4,
+                                "y": 3
+                              },
+                              {
+                                "x": 28,
+                                "y": 3
+                              },
+                              {
+                                "x": 28,
+                                "y": 29
+                              },
+                              {
+                                "x": 4,
+                                "y": 29
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Item2",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "Item2",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
