@@ -965,6 +965,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/Plant/d0cff41634d0eeee65f23cc2ced35d276b2a0f3c0240babe4e927f2611860da8_Bush (3).png",
           "name": "Bush (3).png"
         }
+      },
+      {
+        "file": "assets/RedItem4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/RedItem4.png\"}",
+        "name": "RedItem4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RedItem5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RedItem5",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1022,7 +1038,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.18305734955560374,
+        "zoomFactor": 0.29122588669111704,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1200,8 +1216,8 @@
           "name": "RedItem",
           "persistentUuid": "d7dd48f7-4ec7-4176-94eb-9011ddad4a7f",
           "width": 68,
-          "x": 2129,
-          "y": 2089,
+          "x": 1342,
+          "y": 2713,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -1330,8 +1346,8 @@
           "name": "FemaleCharacter6",
           "persistentUuid": "21de0195-fafe-49aa-ae39-dae0bbb5735d",
           "width": 121,
-          "x": 944,
-          "y": 1031,
+          "x": 1585,
+          "y": 775,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1822,8 +1838,8 @@
           "name": "Bush3",
           "persistentUuid": "b777bf6f-c0ef-4a29-bded-5c57655df36e",
           "width": 451,
-          "x": 2147,
-          "y": 1846,
+          "x": 2204,
+          "y": 628,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1839,8 +1855,8 @@
           "name": "Bush3",
           "persistentUuid": "fea33cb9-8f44-4fe1-95a7-e79063ee1585",
           "width": 451,
-          "x": 1624,
-          "y": 2093,
+          "x": 915,
+          "y": 2255,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1850,14 +1866,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 428,
+          "height": 407,
           "keepRatio": true,
           "layer": "",
           "name": "Bush3",
           "persistentUuid": "575559c7-2853-4a72-9c89-66f19f191b3f",
-          "width": 451,
-          "x": 2146,
-          "y": 2108,
+          "width": 409,
+          "x": 1531,
+          "y": 2511,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1873,8 +1889,8 @@
           "name": "Bush3",
           "persistentUuid": "05a03378-bf9c-4b68-ae91-a6b926432cbc",
           "width": 451,
-          "x": 1897,
-          "y": 2095,
+          "x": 1076,
+          "y": 2858,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -3437,7 +3453,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "RedItem5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3453,20 +3469,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 10,
+                            "x": 4,
                             "y": 0
                           },
                           {
-                            "x": 48,
+                            "x": 24,
                             "y": 0
                           },
                           {
-                            "x": 48,
-                            "y": 63
+                            "x": 24,
+                            "y": 32
                           },
                           {
-                            "x": 10,
-                            "y": 63
+                            "x": 4,
+                            "y": 32
                           }
                         ]
                       ]
@@ -6880,7 +6896,7 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": true,
-                          "image": "RedItem3",
+                          "image": "RedItem4",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
