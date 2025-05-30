@@ -917,6 +917,54 @@
         "name": "RedItem3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Big green tree 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/2a16eb5140a567ee799947fa245017dc815f94bf9420f99b614faee126d84273_Big green tree 1.png",
+          "name": "Big green tree 1.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/90395967d81f88d4022dfe8c3181669c6e43f1773addcbd2ef34195108f5663d_Big green tree 2.png",
+          "name": "Big green tree 2.png"
+        }
+      },
+      {
+        "file": "assets/Bush foreground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush foreground.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Plant/dc11dc67c2107cdfeabfe2391f8f3b78a86e0274e3497cc9e8181cc6df4c2897_Bush foreground.png",
+          "name": "Bush foreground.png"
+        }
+      },
+      {
+        "file": "assets/Bush (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush (3).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/Plant/d0cff41634d0eeee65f23cc2ced35d276b2a0f3c0240babe4e927f2611860da8_Bush (3).png",
+          "name": "Bush (3).png"
+        }
       }
     ],
     "resourceFolders": []
@@ -974,7 +1022,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16031528804546946,
+        "zoomFactor": 0.18305734955560374,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1054,7 +1102,7 @@
           "persistentUuid": "71556999-19ac-44da-adad-de8de81066d0",
           "width": 0,
           "x": 369,
-          "y": 419,
+          "y": 412,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1152,8 +1200,8 @@
           "name": "RedItem",
           "persistentUuid": "d7dd48f7-4ec7-4176-94eb-9011ddad4a7f",
           "width": 68,
-          "x": 66,
-          "y": 426,
+          "x": 2129,
+          "y": 2089,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -1201,8 +1249,8 @@
           "name": "Item2",
           "persistentUuid": "3d97413f-ee9b-4931-ba36-d48b65cb5948",
           "width": 68,
-          "x": 2675,
-          "y": 880,
+          "x": 2737,
+          "y": 76,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1251,7 +1299,7 @@
           "persistentUuid": "dc0c54e5-6e2c-4326-ae90-88ba4d3fc9ab",
           "width": 0,
           "x": 369,
-          "y": 414,
+          "y": 418,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1267,7 +1315,7 @@
           "persistentUuid": "4b1800e4-7367-4f42-9316-98944c0ec0f9",
           "width": 0,
           "x": 372,
-          "y": 408,
+          "y": 412,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1282,9 +1330,552 @@
           "name": "FemaleCharacter6",
           "persistentUuid": "21de0195-fafe-49aa-ae39-dae0bbb5735d",
           "width": 121,
-          "x": 1517,
-          "y": 2271,
+          "x": 944,
+          "y": 1031,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TwoChoicesDialogBox4",
+          "persistentUuid": "06125422-470f-4e56-b1a8-4d8a96c1b13d",
+          "width": 0,
+          "x": 372,
+          "y": 413,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "0b982b98-7b18-409b-be0c-e7941a11d656",
+          "width": 451,
+          "x": 4112,
+          "y": 647,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "f786ed23-88e1-4fff-867c-28eb91c82798",
+          "width": 451,
+          "x": 4118,
+          "y": 902,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "5a197a31-3359-4bff-a7fe-efc2f081c556",
+          "width": 451,
+          "x": 4764,
+          "y": 616,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "47bbad01-b57e-4b8a-adb7-8032da98ae94",
+          "width": 451,
+          "x": 3844,
+          "y": 162,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "ee4d79e4-ff3a-4bfd-89ee-38d1d8a5e29e",
+          "width": 451,
+          "x": 3351,
+          "y": 622,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "e0571aa9-ac05-4ba4-af33-cb01547da061",
+          "width": 451,
+          "x": 3617,
+          "y": 622,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "7b837543-6671-41e3-b536-44f788edb79f",
+          "width": 451,
+          "x": 5024,
+          "y": 609,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "f387a312-f549-4624-9e7d-1cf0f92728a8",
+          "width": 451,
+          "x": 3864,
+          "y": 635,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "cc93c5b8-865e-48f4-8f6b-a77d50c4d0ac",
+          "width": 451,
+          "x": 1458,
+          "y": 175,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "ef7be65e-d89c-45aa-ac20-ffe023adb846",
+          "width": 451,
+          "x": 1704,
+          "y": 175,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "0e4ce03a-fc32-4545-8771-1a5947c31bf8",
+          "width": 451,
+          "x": 1944,
+          "y": 175,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "faf898e5-44fb-437f-a4b7-a96b02d5ed95",
+          "width": 484,
+          "x": 2171,
+          "y": 168,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "abc425df-4292-401a-90b8-08aa21adfb4d",
+          "width": 451,
+          "x": 3078,
+          "y": 176,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "4f6ef3f8-be03-4414-9043-43f129dd2b9d",
+          "width": 464,
+          "x": 3338,
+          "y": 169,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "790ca4e5-73b7-4c5d-8a5c-d09c4cccc35c",
+          "width": 451,
+          "x": 4118,
+          "y": 169,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "84a5bd28-5f4e-445c-adb7-8e459b261ef1",
+          "width": 451,
+          "x": 5544,
+          "y": 609,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "8e836470-d4be-4f4a-bfda-b50bc6b82327",
+          "width": 451,
+          "x": 5284,
+          "y": 615,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "cac28e50-f717-428f-88d9-bc1380a190f9",
+          "width": 451,
+          "x": 4511,
+          "y": 622,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "124bf3aa-c0f0-4c0d-8fdb-411cfe5e6385",
+          "width": 451,
+          "x": 4111,
+          "y": 2848,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "a73978d2-5927-4eb2-a167-ca7698145d69",
+          "width": 451,
+          "x": 4111,
+          "y": 3075,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "5b60129b-0a5d-4571-bf31-f99e5fe8d42d",
+          "width": 451,
+          "x": 4111,
+          "y": 3302,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "a4f38a14-e4db-4efa-979b-581f3bfa1d68",
+          "width": 451,
+          "x": 4111,
+          "y": 1162,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "d1815cee-e675-476e-93a8-581cb0fce5c9",
+          "width": 451,
+          "x": 4111,
+          "y": 1422,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "437c6a36-b815-422e-87cf-63d096ba7b1b",
+          "width": 451,
+          "x": 4111,
+          "y": 1655,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "cf90826a-996b-4c95-9bee-ff3bb71cd034",
+          "width": 451,
+          "x": 4110,
+          "y": 1882,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "8f7c6462-4775-464a-89f0-c7703e3549a5",
+          "width": 451,
+          "x": 3084,
+          "y": 629,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "4e8d5e24-753e-4d69-ba08-66feca0857df",
+          "width": 451,
+          "x": 3604,
+          "y": 168,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "b777bf6f-c0ef-4a29-bded-5c57655df36e",
+          "width": 451,
+          "x": 2147,
+          "y": 1846,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "fea33cb9-8f44-4fe1-95a7-e79063ee1585",
+          "width": 451,
+          "x": 1624,
+          "y": 2093,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 428,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "575559c7-2853-4a72-9c89-66f19f191b3f",
+          "width": 451,
+          "x": 2146,
+          "y": 2108,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 444,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush3",
+          "persistentUuid": "05a03378-bf9c-4b68-ae91-a6b926432cbc",
+          "width": 451,
+          "x": 1897,
+          "y": 2095,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4328,6 +4919,266 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "9d5de415b6e469c681701ea42d3b1c486fee31d6ef591a2d3e226f639ab486ff",
+          "name": "TwoChoicesDialogBox4",
+          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TextMessage": "",
+            "LabelButtonID1": "No",
+            "LabelButtonID0": "Close"
+          },
+          "childrenContent": {
+            "Dialogue": {
+              "content": {
+                "text": "Default message. Continue?",
+                "opacity": 255,
+                "scale": 2,
+                "fontSize": 20,
+                "tint": "255;255;255",
+                "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+                "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+                "align": "left",
+                "wordWrap": true,
+                "verticalTextAlignment": "top"
+              }
+            },
+            "NoButton": {
+              "variant": "",
+              "content": {
+                "LeftPadding": 8,
+                "RightPadding": 8,
+                "PressedLabelOffsetY": 0,
+                "IdleLabelOffsetY": -8,
+                "BottomPadding": 8,
+                "TopPadding": 8,
+                "MinimalWidth": 300
+              },
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 8,
+                  "height": 106,
+                  "leftMargin": 8,
+                  "rightMargin": 8,
+                  "texture": "Border2.png",
+                  "tiled": false,
+                  "topMargin": 8,
+                  "width": 256
+                },
+                "Idle": {
+                  "bottomMargin": 8,
+                  "height": 106,
+                  "leftMargin": 8,
+                  "rightMargin": 8,
+                  "texture": "Border.png",
+                  "tiled": false,
+                  "topMargin": 8,
+                  "width": 256
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "No",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 26,
+                  "color": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "No",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 26,
+                    "color": "255;255;255"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 8,
+                  "height": 106,
+                  "leftMargin": 8,
+                  "rightMargin": 8,
+                  "texture": "Border2.png",
+                  "tiled": false,
+                  "topMargin": 8,
+                  "width": 256
+                }
+              }
+            },
+            "TextBorder": {
+              "bottomMargin": 16,
+              "height": 48,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Border.png",
+              "tiled": false,
+              "topMargin": 16,
+              "width": 48
+            },
+            "YesButton": {
+              "variant": "",
+              "content": {
+                "LeftPadding": 8,
+                "RightPadding": 8,
+                "PressedLabelOffsetY": 0,
+                "IdleLabelOffsetY": -8,
+                "BottomPadding": 8,
+                "TopPadding": 8,
+                "MinimalWidth": 300
+              },
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 8,
+                  "height": 106,
+                  "leftMargin": 8,
+                  "rightMargin": 8,
+                  "texture": "Border2.png",
+                  "tiled": false,
+                  "topMargin": 8,
+                  "width": 256
+                },
+                "Idle": {
+                  "bottomMargin": 8,
+                  "height": 106,
+                  "leftMargin": 8,
+                  "rightMargin": 8,
+                  "texture": "Border.png",
+                  "tiled": false,
+                  "topMargin": 8,
+                  "width": 256
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "Next",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 26,
+                  "color": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Next",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 26,
+                    "color": "255;255;255"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 8,
+                  "height": 106,
+                  "leftMargin": 8,
+                  "rightMargin": 8,
+                  "texture": "Border2.png",
+                  "tiled": false,
+                  "topMargin": 8,
+                  "width": 256
+                }
+              }
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "9f8f3db5cab3ea752a77adfff70611fb203d0b07623d8d36654943055d4ca02a",
+          "name": "Bush3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bush (3).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 102,
+                            "y": 30
+                          },
+                          {
+                            "x": 102,
+                            "y": 98
+                          },
+                          {
+                            "x": 34,
+                            "y": 98
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4358,6 +5209,9 @@
             "objectName": "TwoChoicesDialogBox3"
           },
           {
+            "objectName": "TwoChoicesDialogBox4"
+          },
+          {
             "objectName": "FemaleCharacter6"
           },
           {
@@ -4380,6 +5234,9 @@
           },
           {
             "objectName": "FemaleCharacter1"
+          },
+          {
+            "objectName": "Bush3"
           }
         ]
       },
@@ -4641,6 +5498,71 @@
               },
               "parameters": [
                 "TwoChoicesDialogBox3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TwoChoicesDialogBox4",
+                "Text",
+                "=",
+                "\"Choose your own journey forward but always remember to help those in need\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "Bush3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "Bush3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
+              },
+              "parameters": [
+                "TwoChoicesDialogBox4",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TwoChoicesDialogBox4",
+                ""
               ]
             }
           ]
