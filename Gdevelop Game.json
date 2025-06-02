@@ -2084,8 +2084,8 @@
           "OffsetY": 0
         },
         {
-          "acceleration": 10000,
-          "maxSpeed": 500,
+          "acceleration": 1000000,
+          "maxSpeed": 200,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "deceleration": 9999999,
