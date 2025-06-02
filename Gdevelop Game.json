@@ -2084,10 +2084,10 @@
           "OffsetY": 0
         },
         {
-          "acceleration": 1000000,
-          "maxSpeed": 200,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 1000000,
+          "maxSpeed": 200,
           "deceleration": 9999999,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2823,7 +2823,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702479,
+        "zoomFactor": 0.1603152880454704,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8050,7 +8050,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817098,
+        "zoomFactor": 0.34375202416124245,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13886,7 +13886,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "quest5done",
+                    "quest6done",
                     "True",
                     ""
                   ]
