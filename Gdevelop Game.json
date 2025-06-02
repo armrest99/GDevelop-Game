@@ -3116,8 +3116,8 @@
           "name": "FemaleCharacter6",
           "persistentUuid": "21de0195-fafe-49aa-ae39-dae0bbb5735d",
           "width": 121,
-          "x": 1585,
-          "y": 775,
+          "x": 449,
+          "y": 312,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3679,6 +3679,23 @@
           "x": 513,
           "y": 292,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 695,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SmallCastle",
+          "persistentUuid": "68154a52-d53a-469d-a7fa-6ec401a936c2",
+          "width": 902,
+          "x": 577,
+          "y": -182,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6389,6 +6406,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "8b364832ce7aa8491341cbf33b82e64ecd1a58d501c58bf6da50333de1a00ae5",
+          "name": "SmallCastle",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Small Castle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 216,
+                            "y": 0
+                          },
+                          {
+                            "x": 216,
+                            "y": 170
+                          },
+                          {
+                            "x": 0,
+                            "y": 170
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6432,6 +6509,9 @@
           },
           {
             "objectName": "Item2"
+          },
+          {
+            "objectName": "SmallCastle"
           },
           {
             "objectName": "FemaleCharacter1"
@@ -7358,7 +7438,7 @@
                     "TwoChoicesDialogBox3",
                     "Text",
                     "=",
-                    "\"Thank you!\""
+                    "\"Thank you! Why don't you come inside I have a HUGE house!\""
                   ]
                 },
                 {
@@ -7431,6 +7511,24 @@
                   },
                   "parameters": [
                     "TwoChoicesDialogBox3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"InsideHouse\"",
                     ""
                   ]
                 }
@@ -7908,7 +8006,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2550455473354419,
+        "zoomFactor": 0.9610368693715017,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8168,38 +8266,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "InventorySlot",
-          "persistentUuid": "f190cb54-8b01-4138-930d-20f33bbd4182",
-          "width": 0,
-          "x": 981,
-          "y": 54,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "InventorySlot",
-          "persistentUuid": "75614880-d60f-4c96-9151-79eb573d4202",
-          "width": 0,
-          "x": 1118,
-          "y": 56,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1.4129032258064518,
           "height": 75,
@@ -8375,6 +8441,38 @@
           "x": 373,
           "y": 412,
           "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InventorySlot",
+          "persistentUuid": "139ab95e-07ce-4b44-9ac6-8f9d981ed28e",
+          "width": 0,
+          "x": 981,
+          "y": 54,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InventorySlot",
+          "persistentUuid": "b9ef3ac6-9642-47f4-b301-2c3f1acc3200",
+          "width": 0,
+          "x": 1118,
+          "y": 56,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
