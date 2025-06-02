@@ -2084,10 +2084,10 @@
           "OffsetY": 0
         },
         {
+          "acceleration": 10000,
+          "maxSpeed": 500,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 1000,
-          "maxSpeed": 200,
           "deceleration": 9999999,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2823,7 +2823,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25504554733543944,
+        "zoomFactor": 0.4335774304702479,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2903,8 +2903,8 @@
           "name": "InventorySlot",
           "persistentUuid": "22f15d6f-4d2d-4405-bf83-038ded153d20",
           "width": 0,
-          "x": 1118,
-          "y": 56,
+          "x": 965,
+          "y": 66,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2912,7 +2912,7 @@
             {
               "name": "SlotNumber",
               "type": "number",
-              "value": 2
+              "value": 3
             }
           ]
         },
@@ -2925,8 +2925,8 @@
           "name": "InventorySlot",
           "persistentUuid": "febbef98-fcb7-47f0-929b-253732d80508",
           "width": 0,
-          "x": 841,
-          "y": 52,
+          "x": 563,
+          "y": 61,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2947,8 +2947,8 @@
           "name": "InventorySlot",
           "persistentUuid": "fedb1b84-57d7-4d60-a783-2bca73d81161",
           "width": 0,
-          "x": 981,
-          "y": 54,
+          "x": 687,
+          "y": 63,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3699,6 +3699,50 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InventorySlot",
+          "persistentUuid": "f63de1df-c291-4070-9c46-f17da88c29e2",
+          "width": 0,
+          "x": 823,
+          "y": 66,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InventorySlot",
+          "persistentUuid": "cf1fea68-9840-4ba6-ab4e-1cd4467ea96a",
+          "width": 0,
+          "x": 1103,
+          "y": 65,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 4
+            }
+          ]
         }
       ],
       "objects": [
@@ -8006,7 +8050,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9610368693715017,
+        "zoomFactor": 0.3553434558817098,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8257,8 +8301,8 @@
           "name": "InventorySlot",
           "persistentUuid": "9e5b68bc-8587-4a72-98a1-3b4fe29b248a",
           "width": 0,
-          "x": 841,
-          "y": 52,
+          "x": 577,
+          "y": 44,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -8454,12 +8498,18 @@
           "name": "InventorySlot",
           "persistentUuid": "139ab95e-07ce-4b44-9ac6-8f9d981ed28e",
           "width": 0,
-          "x": 981,
-          "y": 54,
+          "x": 717,
+          "y": 46,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -8470,12 +8520,62 @@
           "name": "InventorySlot",
           "persistentUuid": "b9ef3ac6-9642-47f4-b301-2c3f1acc3200",
           "width": 0,
-          "x": 1118,
-          "y": 56,
+          "x": 854,
+          "y": 45,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InventorySlot",
+          "persistentUuid": "484191be-2efa-467b-b8d0-682c9ce7a9f5",
+          "width": 0,
+          "x": 995,
+          "y": 45,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InventorySlot",
+          "persistentUuid": "a7ed2bb9-550e-465b-aa47-7d1ccc23f1f6",
+          "width": 0,
+          "x": 1140,
+          "y": 45,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 4
+            }
+          ]
         }
       ],
       "objects": [
