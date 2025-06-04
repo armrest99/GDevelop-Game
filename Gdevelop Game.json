@@ -2061,6 +2061,36 @@
         "name": "GreenMagicStaff",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ding.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ding.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bush Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Plant/b23e0c1e6295e32b1c0dd42e7f212466c60c5db35ae9f6c4a3b4622f9b8d10a6_Bush Background.png",
+          "name": "Bush Background.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2086,8 +2116,8 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 2000,
           "acceleration": 1000000,
-          "maxSpeed": 200,
           "deceleration": 9999999,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2700,6 +2730,67 @@
       "effects": [],
       "behaviors": [],
       "content": {}
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BlockedDoor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 23
+                      },
+                      {
+                        "x": 64,
+                        "y": 23
+                      },
+                      {
+                        "x": 64,
+                        "y": 43
+                      },
+                      {
+                        "x": 0,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2716,6 +2807,9 @@
       },
       {
         "objectName": "InventoryIcon"
+      },
+      {
+        "objectName": "BlockedDoor"
       }
     ]
   },
@@ -2823,7 +2917,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1603152880454704,
+        "zoomFactor": 0.23089183385225423,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3143,533 +3237,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "0b982b98-7b18-409b-be0c-e7941a11d656",
-          "width": 451,
-          "x": 4112,
-          "y": 647,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "f786ed23-88e1-4fff-867c-28eb91c82798",
-          "width": 451,
-          "x": 4118,
-          "y": 902,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "5a197a31-3359-4bff-a7fe-efc2f081c556",
-          "width": 451,
-          "x": 4764,
-          "y": 616,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "47bbad01-b57e-4b8a-adb7-8032da98ae94",
-          "width": 451,
-          "x": 3844,
-          "y": 162,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "ee4d79e4-ff3a-4bfd-89ee-38d1d8a5e29e",
-          "width": 451,
-          "x": 3351,
-          "y": 622,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "e0571aa9-ac05-4ba4-af33-cb01547da061",
-          "width": 451,
-          "x": 3617,
-          "y": 622,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "7b837543-6671-41e3-b536-44f788edb79f",
-          "width": 451,
-          "x": 5024,
-          "y": 609,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "f387a312-f549-4624-9e7d-1cf0f92728a8",
-          "width": 451,
-          "x": 3864,
-          "y": 635,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "cc93c5b8-865e-48f4-8f6b-a77d50c4d0ac",
-          "width": 451,
-          "x": 1458,
-          "y": 175,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "ef7be65e-d89c-45aa-ac20-ffe023adb846",
-          "width": 451,
-          "x": 1704,
-          "y": 175,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "0e4ce03a-fc32-4545-8771-1a5947c31bf8",
-          "width": 451,
-          "x": 1944,
-          "y": 175,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "faf898e5-44fb-437f-a4b7-a96b02d5ed95",
-          "width": 484,
-          "x": 2171,
-          "y": 168,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "abc425df-4292-401a-90b8-08aa21adfb4d",
-          "width": 451,
-          "x": 3078,
-          "y": 176,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "4f6ef3f8-be03-4414-9043-43f129dd2b9d",
-          "width": 464,
-          "x": 3338,
-          "y": 169,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "790ca4e5-73b7-4c5d-8a5c-d09c4cccc35c",
-          "width": 451,
-          "x": 4118,
-          "y": 169,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "84a5bd28-5f4e-445c-adb7-8e459b261ef1",
-          "width": 451,
-          "x": 5544,
-          "y": 609,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "8e836470-d4be-4f4a-bfda-b50bc6b82327",
-          "width": 451,
-          "x": 5284,
-          "y": 615,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "cac28e50-f717-428f-88d9-bc1380a190f9",
-          "width": 451,
-          "x": 4511,
-          "y": 622,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "124bf3aa-c0f0-4c0d-8fdb-411cfe5e6385",
-          "width": 451,
-          "x": 4111,
-          "y": 2848,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "a73978d2-5927-4eb2-a167-ca7698145d69",
-          "width": 451,
-          "x": 4111,
-          "y": 3075,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "5b60129b-0a5d-4571-bf31-f99e5fe8d42d",
-          "width": 451,
-          "x": 4111,
-          "y": 3302,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "a4f38a14-e4db-4efa-979b-581f3bfa1d68",
-          "width": 451,
-          "x": 4111,
-          "y": 1162,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "d1815cee-e675-476e-93a8-581cb0fce5c9",
-          "width": 451,
-          "x": 4111,
-          "y": 1422,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "437c6a36-b815-422e-87cf-63d096ba7b1b",
-          "width": 451,
-          "x": 4111,
-          "y": 1655,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "cf90826a-996b-4c95-9bee-ff3bb71cd034",
-          "width": 451,
-          "x": 4110,
-          "y": 1882,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "8f7c6462-4775-464a-89f0-c7703e3549a5",
-          "width": 451,
-          "x": 3084,
-          "y": 629,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "4e8d5e24-753e-4d69-ba08-66feca0857df",
-          "width": 451,
-          "x": 3604,
-          "y": 168,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "b777bf6f-c0ef-4a29-bded-5c57655df36e",
-          "width": 451,
-          "x": 2204,
-          "y": 628,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "fea33cb9-8f44-4fe1-95a7-e79063ee1585",
-          "width": 451,
-          "x": 915,
-          "y": 2255,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 407,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "575559c7-2853-4a72-9c89-66f19f191b3f",
-          "width": 409,
-          "x": 1531,
-          "y": 2511,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 444,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bush3",
-          "persistentUuid": "05a03378-bf9c-4b68-ae91-a6b926432cbc",
-          "width": 451,
-          "x": 1076,
-          "y": 2858,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 75,
           "keepRatio": true,
           "layer": "UI",
@@ -3743,6 +3310,193 @@
               "value": 4
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 147,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushForeground",
+          "persistentUuid": "519daa2b-04d0-41ee-83ff-13b5ab2bd884",
+          "width": 168,
+          "x": 4232,
+          "y": 1954,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushBackground",
+          "persistentUuid": "f8e168dd-b2f1-4c58-90e4-c0c292105ddd",
+          "width": 146,
+          "x": 1374,
+          "y": 2693,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushBackground",
+          "persistentUuid": "fe8c051c-0019-4a8c-8321-b5f0c718c1df",
+          "width": 146,
+          "x": 1253,
+          "y": 2554,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushBackground",
+          "persistentUuid": "f8946de5-fe92-45ca-a9e7-9072363dca2d",
+          "width": 146,
+          "x": 1125,
+          "y": 2798,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushBackground",
+          "persistentUuid": "5ffdd7b0-b888-42e3-96f3-36bc05e85c83",
+          "width": 146,
+          "x": 3782,
+          "y": 1829,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushBackground",
+          "persistentUuid": "4b69e774-2b08-4587-8d73-4d87a98ffa94",
+          "width": 146,
+          "x": 622,
+          "y": 2179,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushBackground",
+          "persistentUuid": "f9b1da3f-3e42-4d61-a23e-e89ff0fb42f1",
+          "width": 146,
+          "x": 1095,
+          "y": 1682,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushBackground",
+          "persistentUuid": "af14a52d-eb19-4b9f-929b-b34bfb19a757",
+          "width": 146,
+          "x": 845,
+          "y": 843,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 147,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushForeground",
+          "persistentUuid": "f92e4f39-64f8-4b81-b05a-c4bcb6a5a8ec",
+          "width": 168,
+          "x": 4242,
+          "y": 1713,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 147,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushForeground",
+          "persistentUuid": "13d7eb0a-9f42-4272-8ef4-c0d15c533753",
+          "width": 168,
+          "x": 4269,
+          "y": 1329,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 147,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BushForeground",
+          "persistentUuid": "ae488c0e-6a00-48ff-ae8c-81cbb4bceffd",
+          "width": 168,
+          "x": 4067,
+          "y": 1079,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6393,66 +6147,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "9f8f3db5cab3ea752a77adfff70611fb203d0b07623d8d36654943055d4ca02a",
-          "name": "Bush3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Bush (3).png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 34,
-                            "y": 30
-                          },
-                          {
-                            "x": 102,
-                            "y": 30
-                          },
-                          {
-                            "x": 102,
-                            "y": 98
-                          },
-                          {
-                            "x": 34,
-                            "y": 98
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "8b364832ce7aa8491341cbf33b82e64ecd1a58d501c58bf6da50333de1a00ae5",
           "name": "SmallCastle",
           "type": "Sprite",
@@ -6501,6 +6195,126 @@
                           {
                             "x": 0,
                             "y": 170
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "073acace0e46e88aa6459ac18e3b535ce9d7d2767e0ec6ea1cf3fd7b937f75a4",
+          "name": "BushForeground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bush foreground.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 7
+                          },
+                          {
+                            "x": 46,
+                            "y": 7
+                          },
+                          {
+                            "x": 46,
+                            "y": 24
+                          },
+                          {
+                            "x": 3,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "484010ed702d9025487ae7a9497ff37c073ad17fb859f13446536fa767062a26",
+          "name": "BushBackground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bush Background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 17
+                          },
+                          {
+                            "x": 0,
+                            "y": 17
                           }
                         ]
                       ]
@@ -6561,7 +6375,10 @@
             "objectName": "FemaleCharacter1"
           },
           {
-            "objectName": "Bush3"
+            "objectName": "BushBackground"
+          },
+          {
+            "objectName": "BushForeground"
           }
         ]
       },
@@ -6627,7 +6444,7 @@
               },
               "parameters": [
                 "",
-                "cc3dbc9b93661275858f312f2c811186a6cc636e7ea28e55bd3a7be675b9d718_Walk_06.wav",
+                "508f226348f7531bedc7e87f5f4f8564043af9d89dc21cdb6b7aa1d3b7fadbbe_Walk_06.wav",
                 "1",
                 "yes",
                 "10",
@@ -6855,7 +6672,7 @@
               },
               "parameters": [
                 "MaleCharacter1",
-                "Bush3",
+                "BushForeground",
                 "",
                 "",
                 ""
@@ -6869,7 +6686,36 @@
               },
               "parameters": [
                 "MaleCharacter1",
-                "Bush3",
+                "BushForeground",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "SmallCastle",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "SmallCastle",
                 ""
               ]
             }
@@ -7075,7 +6921,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
@@ -7309,7 +7155,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
@@ -7543,7 +7389,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
@@ -8050,7 +7896,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416124245,
+        "zoomFactor": 0.4633111824514128,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8145,8 +7991,8 @@
           "name": "Conjurer2",
           "persistentUuid": "1949b638-4dc8-4264-b9fe-d7bc5b1fd41d",
           "width": 121,
-          "x": 696,
-          "y": 849,
+          "x": 2382,
+          "y": 451,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -8161,8 +8007,8 @@
           "name": "MaleCharacter10",
           "persistentUuid": "a0980c6d-1450-433b-ad7f-0440d20742f8",
           "width": 121,
-          "x": 2083,
-          "y": 700,
+          "x": 624,
+          "y": 844,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -8285,8 +8131,8 @@
           "name": "FullSouthwestCorner",
           "persistentUuid": "c8cd35d8-a073-4a8e-a02c-4e89bbc96dfb",
           "width": 189,
-          "x": 1801,
-          "y": -90,
+          "x": 1842,
+          "y": -84,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -8350,8 +8196,8 @@
           "name": "LeatherBoots",
           "persistentUuid": "820e07ab-68eb-432d-81fa-c5c3d27fa5e0",
           "width": 68,
-          "x": 213,
-          "y": 1198,
+          "x": 1360,
+          "y": 254,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -8384,8 +8230,8 @@
           "name": "GoldKey",
           "persistentUuid": "49b4e2b9-0a26-4e5f-b140-a663542e2a05",
           "width": 68,
-          "x": 2034,
-          "y": 25,
+          "x": 2210,
+          "y": 78,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -8395,14 +8241,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 100,
+          "height": 126,
           "keepRatio": true,
           "layer": "",
           "name": "GreenMagicStaff",
           "persistentUuid": "ed51b979-6805-45c3-bc78-c2930dbad60f",
-          "width": 68,
-          "x": 517,
-          "y": 2077,
+          "width": 42,
+          "x": 543,
+          "y": 2051,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -8418,8 +8264,8 @@
           "name": "PlantPotGrowing",
           "persistentUuid": "e5fd612e-4645-490f-9930-1a4fc9c322e9",
           "width": 68,
-          "x": 1352,
-          "y": 463,
+          "x": 370,
+          "y": 1160,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -8434,8 +8280,8 @@
           "name": "TwoChoicesDialogBox2",
           "persistentUuid": "0b155e7d-96bf-497b-9319-4b1cd29f2a12",
           "width": 0,
-          "x": 369,
-          "y": 412,
+          "x": 378,
+          "y": 421,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -8450,8 +8296,8 @@
           "name": "TwoChoicesDialogBox3",
           "persistentUuid": "71665f6d-f80b-4348-860d-336012eaddb0",
           "width": 0,
-          "x": 373,
-          "y": 420,
+          "x": 379,
+          "y": 418,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -8466,8 +8312,8 @@
           "name": "TwoChoicesDialogBox4",
           "persistentUuid": "dc8bc1a3-2bf6-4d93-b74a-dc2d82e11693",
           "width": 0,
-          "x": 373,
-          "y": 420,
+          "x": 371,
+          "y": 412,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -8482,8 +8328,8 @@
           "name": "TwoChoicesDialogBox5",
           "persistentUuid": "25f49cdd-b364-4d4c-8fa4-c0355cda72ca",
           "width": 0,
-          "x": 373,
-          "y": 412,
+          "x": 371,
+          "y": 415,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -8576,6 +8422,40 @@
               "value": 4
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 297,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BlockedDoor",
+          "persistentUuid": "edeee985-7d0a-41d6-8454-47254053253d",
+          "width": 433,
+          "x": 2029,
+          "y": 88,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 367,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FullSouthwestCorner",
+          "persistentUuid": "f9fee987-656d-40d5-8dd9-bcf1e1d42d40",
+          "width": 189,
+          "x": 2460,
+          "y": -80,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -13186,6 +13066,35 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "BlockedDoor",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MaleCharacter1",
+                "BlockedDoor",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -13236,7 +13145,7 @@
               },
               "parameters": [
                 "",
-                "cc3dbc9b93661275858f312f2c811186a6cc636e7ea28e55bd3a7be675b9d718_Walk_06.wav",
+                "508f226348f7531bedc7e87f5f4f8564043af9d89dc21cdb6b7aa1d3b7fadbbe_Walk_06.wav",
                 "1",
                 "yes",
                 "10",
@@ -13420,7 +13329,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
@@ -13654,7 +13563,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
@@ -13899,7 +13808,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
@@ -14133,7 +14042,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
@@ -14306,7 +14215,7 @@
                     "TwoChoicesDialogBox5",
                     "Text",
                     "=",
-                    "\"OMG thank you so much you're the best!\""
+                    "\"Thanks I'll blow up this door for you\""
                   ]
                 },
                 {
@@ -14315,6 +14224,15 @@
                   },
                   "parameters": [
                     "TwoChoicesDialogBox5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BlockedDoor",
                     ""
                   ]
                 }
@@ -14367,7 +14285,7 @@
                   },
                   "parameters": [
                     "",
-                    "ba6e4a9b5f9611b4121092f7cbe5d073d022d007276679ea4a13b3a572e45728_Fanfare X.aac",
+                    "ding.wav",
                     "",
                     "10",
                     "20"
