@@ -2151,6 +2151,44 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Three Red Hearts - Penguin Town2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Three Red Hearts - Penguin Town2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Three Red Hearts - Rabbit Town.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Three Red Hearts - Rabbit Town.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Three Red Hearts - Princess Quest (No Boing).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Three Red Hearts - Princess Quest (No Boing).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2174,9 +2212,9 @@
           "OffsetY": 0
         },
         {
-          "maxSpeed": 200,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 200,
           "acceleration": 1000000,
           "deceleration": 9999999,
           "allowDiagonals": true,
@@ -2676,13 +2714,24 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "InteractText",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": "E to interact",
       "font": "",
       "textAlignment": "center",
@@ -2728,7 +2777,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -6868,7 +6928,7 @@
         "objectName": "InventorySlot"
       },
       {
-        "objectName": "NewText"
+        "objectName": "InteractText"
       },
       {
         "objectName": "MaleCharacter1"
@@ -7020,7 +7080,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.11894533708001416,
+        "zoomFactor": 0.7876290101673966,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7333,7 +7393,7 @@
           "height": 75,
           "keepRatio": true,
           "layer": "UI",
-          "name": "NewText",
+          "name": "InteractText",
           "persistentUuid": "9b0b92fd-ce7e-4e0d-9532-8decef023e4a",
           "width": 219,
           "x": 513,
@@ -7889,7 +7949,7 @@
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "2331b535-2e41-4aec-8543-f0125fe62c9b",
-          "width": 207,
+          "width": 164,
           "x": 3588,
           "y": 2371,
           "zOrder": 21,
@@ -7993,7 +8053,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {
             "TextMessage": "...take this gold necklace",
             "LabelButtonID1": "No"
@@ -8542,7 +8613,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {
             "TextMessage": "...take this gold necklace",
             "LabelButtonID1": "No"
@@ -8741,7 +8823,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {
             "TextMessage": "...take this gold necklace",
             "LabelButtonID1": "No"
@@ -9134,7 +9227,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
+                      "image": "NewSprite8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9181,7 +9274,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {
             "TextMessage": "...take this gold necklace",
             "LabelButtonID1": "No"
@@ -9380,7 +9484,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {
             "TextMessage": "...take this gold necklace",
             "LabelButtonID1": "No"
@@ -9649,7 +9764,7 @@
               },
               "parameters": [
                 "",
-                "3b0c82932f445823562bb4b3da8eae1aadf8d0fea64bb3066f6b7f5d51dc17eb_Nomadic Sunset MMXIX.aac",
+                "Three Red Hearts - Penguin Town2.wav",
                 "2",
                 "yes",
                 "1",
@@ -9661,7 +9776,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "NewText"
+                "InteractText"
               ]
             },
             {
@@ -11096,7 +11211,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -11123,7 +11238,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -11150,7 +11265,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -11177,7 +11292,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -11204,7 +11319,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -11396,6 +11511,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
         },
@@ -11453,7 +11572,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2636457673770886,
+        "zoomFactor": 0.4335774304702515,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11717,7 +11836,7 @@
           "depth": 1.4129032258064518,
           "height": 75,
           "layer": "UI",
-          "name": "NewText",
+          "name": "InteractText",
           "persistentUuid": "17ee5501-f990-48c0-a04d-dbc3378fa99b",
           "width": 219,
           "x": 513,
@@ -12916,7 +13035,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Dialogue": {
@@ -13112,7 +13242,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Dialogue": {
@@ -13308,7 +13449,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Dialogue": {
@@ -13504,7 +13656,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Dialogue": {
@@ -13700,7 +13863,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Dialogue": {
@@ -13992,7 +14166,7 @@
               },
               "parameters": [
                 "",
-                "3b0c82932f445823562bb4b3da8eae1aadf8d0fea64bb3066f6b7f5d51dc17eb_Nomadic Sunset MMXIX.aac",
+                "Three Red Hearts - Rabbit Town.wav",
                 "2",
                 "yes",
                 "1",
@@ -14004,7 +14178,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "NewText"
+                "InteractText"
               ]
             },
             {
@@ -15237,7 +15411,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -15264,7 +15438,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -15291,7 +15465,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -15318,7 +15492,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "NewText",
+                "InteractText",
                 ""
               ]
             }
@@ -15634,6 +15808,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
@@ -16052,7 +16230,18 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "name": "Anchor",
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "relativeToOriginalWindowSize": true,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "string": "Credits:",
           "font": "",
           "textAlignment": "left",
@@ -16094,8 +16283,19 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "string": "Sounds from asset store:\nBackground Music by FreePD.com\nWalking Sound by Nox_Sound\n\nOther Sounds:\nCredit music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\nAll characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots made by\nGold necklace made by\nBlueberries made by\nPotted Plant made by\nGreen Magic Staff made by\nSecond Gold Key made by\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, and interact text made by Amrith Krishnakumar\nInventory Slots made by Jaden Li",
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "name": "Anchor",
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "relativeToOriginalWindowSize": true,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "string": "Sounds from asset store:\nBackground Music by FreePD.com\nWalking Sound by Nox_Sound\n\nOther Sounds:\nCredit music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\nAll characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots made by\nGold necklace made by\nBlueberries made by\nPotted Plant made by\nGreen Magic Staff made by\nSecond Gold Key made by\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, & interact text\n      made by Amrith Krishnakumar\nInventory Slots made by Jaden Li",
           "font": "",
           "textAlignment": "center",
           "characterSize": 19,
@@ -16118,7 +16318,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Sounds from asset store:\nBackground Music by FreePD.com\nWalking Sound by Nox_Sound\n\nOther Sounds:\nCredit music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\nAll characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots made by\nGold necklace made by\nBlueberries made by\nPotted Plant made by\nGreen Magic Staff made by\nSecond Gold Key made by\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, and interact text made by Amrith Krishnakumar\nInventory Slots made by Jaden Li",
+            "text": "Sounds from asset store:\nBackground Music by FreePD.com\nWalking Sound by Nox_Sound\n\nOther Sounds:\nCredit music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\nAll characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots made by\nGold necklace made by\nBlueberries made by\nPotted Plant made by\nGreen Magic Staff made by\nSecond Gold Key made by\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, & interact text\n      made by Amrith Krishnakumar\nInventory Slots made by Jaden Li",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -16361,7 +16561,7 @@
               },
               "parameters": [
                 "",
-                "Three Red Hearts - Penguin Town.wav",
+                "Three Red Hearts - Princess Quest (No Boing).wav",
                 "2",
                 "yes",
                 "1",
@@ -16418,6 +16618,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
