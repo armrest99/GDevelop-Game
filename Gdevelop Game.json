@@ -2722,13 +2722,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 4,
           "leftEdgeAnchor": 4,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 4,
           "topEdgeAnchor": 4,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2779,13 +2779,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 0,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -7080,7 +7080,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101673966,
+        "zoomFactor": 0.36732575450589255,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7348,7 +7348,7 @@
           "persistentUuid": "dc0c54e5-6e2c-4326-ae90-88ba4d3fc9ab",
           "width": 0,
           "x": 372,
-          "y": 417,
+          "y": 407,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -7363,8 +7363,8 @@
           "name": "TwoChoicesDialogBox3",
           "persistentUuid": "4b1800e4-7367-4f42-9316-98944c0ec0f9",
           "width": 0,
-          "x": 369,
-          "y": 416,
+          "x": 353,
+          "y": 410,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -7593,8 +7593,8 @@
           "name": "BushBackground",
           "persistentUuid": "af14a52d-eb19-4b9f-929b-b34bfb19a757",
           "width": 146,
-          "x": 845,
-          "y": 843,
+          "x": 761,
+          "y": 966,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -7966,7 +7966,7 @@
           "name": "TwoChoicesDialogBox4",
           "persistentUuid": "1a64256c-b53f-4217-84ba-ee750a3fb921",
           "width": 0,
-          "x": 372,
+          "x": 377,
           "y": 415,
           "zOrder": 22,
           "numberProperties": [],
@@ -7982,8 +7982,8 @@
           "name": "TwoChoicesDialogBox5",
           "persistentUuid": "92857339-3b5f-4935-a9ad-844cd626cb0f",
           "width": 0,
-          "x": 373,
-          "y": 411,
+          "x": 362,
+          "y": 416,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -8055,13 +8055,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 4,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 4,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -8615,13 +8615,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 4,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 4,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -8825,13 +8825,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 4,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 4,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -9276,13 +9276,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 4,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 4,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -9486,13 +9486,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 4,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 4,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -9748,27 +9748,15 @@
           "actions": [
             {
               "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "MaleCharacter1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
-                "Three Red Hearts - Penguin Town2.wav",
-                "2",
+                "Three Red Hearts - Princess Quest (No Boing).wav",
+                "3",
                 "yes",
-                "1",
-                ""
+                "0.3",
+                "0.7"
               ]
             },
             {
@@ -9789,8 +9777,25 @@
                 "=",
                 "Speed"
               ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "MaleCharacter1",
+                "",
+                "",
+                ""
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9822,10 +9827,10 @@
               },
               "parameters": [
                 "",
-                "508f226348f7531bedc7e87f5f4f8564043af9d89dc21cdb6b7aa1d3b7fadbbe_Walk_06.wav",
+                "cc3dbc9b93661275858f312f2c811186a6cc636e7ea28e55bd3a7be675b9d718_Walk_06.wav",
                 "1",
                 "yes",
-                "10",
+                "20",
                 "1"
               ]
             }
@@ -10758,14 +10763,6 @@
                     "TwoChoicesDialogBox3",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
                 }
               ],
               "events": [
@@ -10885,7 +10882,7 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "TwoChoicesDialogBox",
+                    "TwoChoicesDialogBox4",
                     "Text",
                     "=",
                     "\"I went for a swim and misplaced my shoes, could you help me look for them?\""
@@ -10896,7 +10893,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "TwoChoicesDialogBox",
+                    "TwoChoicesDialogBox4",
                     ""
                   ]
                 }
@@ -10922,7 +10919,7 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "TwoChoicesDialogBox",
+                    "TwoChoicesDialogBox4",
                     "Text",
                     "=",
                     "\"Thank you!\""
@@ -10933,7 +10930,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "TwoChoicesDialogBox",
+                    "TwoChoicesDialogBox4",
                     ""
                   ]
                 },
@@ -10959,7 +10956,7 @@
                 "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
               },
               "parameters": [
-                "TwoChoicesDialogBox5",
+                "TwoChoicesDialogBox4",
                 ""
               ]
             }
@@ -10970,7 +10967,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "TwoChoicesDialogBox"
+                "TwoChoicesDialogBox4"
               ]
             }
           ],
@@ -11007,7 +11004,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "TwoChoicesDialogBox",
+                    "TwoChoicesDialogBox4",
                     ""
                   ]
                 }
@@ -11178,6 +11175,24 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -11355,7 +11370,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "TwoChoicesDialogBox4",
+                "TwoChoicesDialogBox5",
                 "Text",
                 "=",
                 "\"There is a treasure hidden in the castle.\""
@@ -11366,7 +11381,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "TwoChoicesDialogBox4",
+                "TwoChoicesDialogBox5",
                 ""
               ]
             }
@@ -11380,7 +11395,7 @@
                 "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
               },
               "parameters": [
-                "TwoChoicesDialogBox4",
+                "TwoChoicesDialogBox5",
                 ""
               ]
             }
@@ -11391,7 +11406,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "TwoChoicesDialogBox4"
+                "TwoChoicesDialogBox5"
               ]
             }
           ]
@@ -11572,7 +11587,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702515,
+        "zoomFactor": 0.2817259932079651,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11635,8 +11650,8 @@
           "name": "FemaleCharacter7",
           "persistentUuid": "350c1166-57c1-4182-9370-fef08c3c65e6",
           "width": 121,
-          "x": 247,
-          "y": 1742,
+          "x": 1159,
+          "y": 901,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -11651,8 +11666,8 @@
           "name": "FemaleCharacter9",
           "persistentUuid": "92daa2a6-664f-4b72-a093-d05766c80aa1",
           "width": 121,
-          "x": 2435,
-          "y": 1902,
+          "x": 146,
+          "y": 1867,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -11670,22 +11685,6 @@
           "x": 2382,
           "y": 451,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 127,
-          "layer": "",
-          "name": "MaleCharacter10",
-          "persistentUuid": "a0980c6d-1450-433b-ad7f-0440d20742f8",
-          "width": 121,
-          "x": 624,
-          "y": 844,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11869,23 +11868,6 @@
           "height": 68,
           "keepRatio": true,
           "layer": "",
-          "name": "LeatherBoots",
-          "persistentUuid": "820e07ab-68eb-432d-81fa-c5c3d27fa5e0",
-          "width": 68,
-          "x": 1360,
-          "y": 254,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 68,
-          "keepRatio": true,
-          "layer": "",
           "name": "Blueberries",
           "persistentUuid": "d252f315-2469-43e4-838d-c38352493d8b",
           "width": 68,
@@ -11940,8 +11922,8 @@
           "name": "PlantPotGrowing",
           "persistentUuid": "e5fd612e-4645-490f-9930-1a4fc9c322e9",
           "width": 68,
-          "x": 370,
-          "y": 1160,
+          "x": 1359,
+          "y": 76,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -13037,13 +13019,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 4,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 4,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -13865,13 +13847,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 4,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 4,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -14169,7 +14151,7 @@
                 "Three Red Hearts - Rabbit Town.wav",
                 "2",
                 "yes",
-                "1",
+                "0.5",
                 ""
               ]
             },
@@ -14193,6 +14175,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -14385,7 +14372,7 @@
                 "508f226348f7531bedc7e87f5f4f8564043af9d89dc21cdb6b7aa1d3b7fadbbe_Walk_06.wav",
                 "1",
                 "yes",
-                "10",
+                "20",
                 "1"
               ]
             }
@@ -15678,6 +15665,24 @@
           "actions": [
             {
               "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -16232,12 +16237,12 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
-              "name": "Anchor",
               "rightEdgeAnchor": 2,
               "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior",
               "relativeToOriginalWindowSize": true,
               "useLegacyBottomAndRightAnchors": false
             }
@@ -16285,17 +16290,17 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
-              "name": "Anchor",
               "rightEdgeAnchor": 2,
               "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior",
               "relativeToOriginalWindowSize": true,
               "useLegacyBottomAndRightAnchors": false
             }
           ],
-          "string": "Sounds from asset store:\nBackground Music by FreePD.com\nWalking Sound by Nox_Sound\n\nOther Sounds:\nCredit music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\nAll characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots made by\nGold necklace made by\nBlueberries made by\nPotted Plant made by\nGreen Magic Staff made by\nSecond Gold Key made by\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, & interact text\n      made by Amrith Krishnakumar\nInventory Slots made by Jaden Li",
+          "string": "Sounds from asset store:\nWalking Sound by Nox_Sound\n\nOther Sounds:\nBackground Music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\n8-Bit characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots, Blueberries, and Second Gold Key \n         made by Gentle Cat Studio\nGold necklace and Potted Plant made by Matt Firth\nGreen Magic Staff made by Robert Norenberg\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, & interact text \n          made by Amrith Krishnakumar\nInventory Slots and icons made by Jaden Li",
           "font": "",
           "textAlignment": "center",
           "characterSize": 19,
@@ -16318,7 +16323,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Sounds from asset store:\nBackground Music by FreePD.com\nWalking Sound by Nox_Sound\n\nOther Sounds:\nCredit music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\nAll characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots made by\nGold necklace made by\nBlueberries made by\nPotted Plant made by\nGreen Magic Staff made by\nSecond Gold Key made by\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, & interact text\n      made by Amrith Krishnakumar\nInventory Slots made by Jaden Li",
+            "text": "Sounds from asset store:\nWalking Sound by Nox_Sound\n\nOther Sounds:\nBackground Music by Abstraction\nQuest complete sound by moodyfingers\nExplosion sound by timgormly\n\nArt from Asset Store:\n8-Bit characters made by Fleurman\nExplosion girl made by route1rodent\nBushes made by Wishforge Games\nSmall Castle and inside castle floor made by Kenney\nOutside grass and stone path made by Cethiel\nLeather boots, Blueberries, and Second Gold Key \n         made by Gentle Cat Studio\nGold necklace and Potted Plant made by Matt Firth\nGreen Magic Staff made by Robert Norenberg\nInside castle doors and walls made by Robert Norenberg\n\nOther Art:\nItem2 (Artwork), first gold key, & interact text \n          made by Amrith Krishnakumar\nInventory Slots and icons made by Jaden Li",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -16561,11 +16566,11 @@
               },
               "parameters": [
                 "",
-                "Three Red Hearts - Princess Quest (No Boing).wav",
+                "Three Red Hearts - Penguin Town.wav",
                 "2",
                 "yes",
                 "1",
-                ""
+                "0.8"
               ]
             }
           ]
